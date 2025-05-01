@@ -1,19 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Login = () => {
     return (
 
-        <div className='place-items-center mt-25'>
-            <div className="card-body min-w-sm">
-                <h1 className="text-5xl font-bold">Login now!</h1>
-                <fieldset className="fieldset">
+        <div className="card bg-base-100 w-full max-w-sm mx-auto mt-25 shrink-0 shadow-2xl">
+                    <div className="card-body">
+                <h3 className="text-3xl text-center py-4 font-bold">Login now!</h3>
+                <form className="fieldset">
                     <label className="label">Email</label>
                     <input type="email" className="input" placeholder="Email" />
                     <label className="label">Password</label>
                     <input type="password" className="input" placeholder="Password" />
                     <div><a className="link link-hover">Forgot password?</a></div>
                     <button className="btn btn-neutral mt-4">Login</button>
-                </fieldset>
+                </form>
+                <p>New to this site? Please <Link className='text-blue-500 underline' to={'/register'}>SignUp</Link></p>
             </div>
         </div>
 
