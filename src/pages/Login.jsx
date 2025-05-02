@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Link } from 'react-router';
+import { AuthContexts } from '../Contexts/AuthContexts';
+
 
 const Login = () => {
+
+    const userInfo = use(AuthContexts)
+    console.log(userInfo)
+
     return (
 
         <div className="card bg-base-100 w-full max-w-sm mx-auto mt-25 shrink-0 shadow-2xl">
