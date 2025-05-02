@@ -5,7 +5,7 @@ const Register = () => {
     return (
         
                 
-                <div className="card bg-base-100 w-full max-w-sm mx-auto mt-25 shrink-0 shadow-2xl">
+                <div className="card bg-base-100 w-full max-w-sm mx-auto mt-25 mb-30 shrink-0 shadow-2xl">
                     <div className="card-body">
                         <h1 className="text-3xl text-center py-4 font-bold">Register now!</h1>
                         <form className="fieldset">

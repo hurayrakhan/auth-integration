@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router";
-import Root from "../Root/Root";
+import Root from "../Layout/Root";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 
